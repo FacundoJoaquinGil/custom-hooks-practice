@@ -1,0 +1,44 @@
+.contenedor-contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh; 
+}
+
+.columna-botones{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.columna-botones button{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.columna-botones button:hover{
+    border: 2px solid rgba(0, 0, 0, 0.607);
+}
+
+.btn-1{
+    background-color: rgb(0, 149, 255);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.btn-2{
+    background-color: rgb(125, 127, 129);
+    border-radius: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.btn-3{
+    background-color: rgb(229, 39, 49);
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}

@@ -1,0 +1,10 @@
+.titulo{
+    text-align: center;
+    margin: 20px;
+}
+
+.br{
+    color: white;
+    border-radius: 2px solid rgb(255, 255, 255);
+}
+
